@@ -10,12 +10,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { UserComponent } from './user/user.component';
 import { AvatarModule } from 'ngx-avatar';
+import { FileSelectDirective } from 'ng2-file-upload';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    UserComponent   
+    UserComponent,
+    FileSelectDirective  
     
   ],
   imports: [

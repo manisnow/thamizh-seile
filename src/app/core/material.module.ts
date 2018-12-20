@@ -40,6 +40,7 @@ import {
   MatToolbarModule,
   MatTooltipModule,
   MatTreeModule,
+  
 } from '@angular/material';
 
 @NgModule({
@@ -83,6 +84,6 @@ import {
     MatTooltipModule,
     MatTreeModule,
     ScrollingModule,
-  ]
+    ]
 })
 export class CustomMaterialModule { }
